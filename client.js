@@ -11,12 +11,10 @@ var client = twilio(accountSid, authToken);
 // just makes a call to my phone right now
 
 	client.makeCall({
-	  to: '+17072257359',
+	  to: '+',
 	  from: '+17076746183',
 	  url: 'http://twimlets.com/message?Message%5B0%5D=http%3A%2F%2Fwww.directlinkupload.com%2Fuploads%2F50.161.13.11%2FbananaPhone.mp3&'
-	}, function(err, responseData) { 
+	}, function(err, responseData) {
 	  console.log(responseData.from);
-	
+
 	});
-
-
