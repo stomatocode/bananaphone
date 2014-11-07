@@ -1,7 +1,8 @@
+// require dependencies
 var twilio = require("/usr/local/lib/node_modules/twilio");
-// now for the rest of it...
 // implement gpio functionality for non-gui access
-// implement dynamic outbound number
+var gpio = require("pi-gpio");
+
 
 
 var accountSid = 'AC94c28a23360c8d180b576c01539028be';
@@ -20,3 +21,4 @@ var client = twilio(accountSid, authToken);
 	});
 
 
+// implement dynamic outbound number
