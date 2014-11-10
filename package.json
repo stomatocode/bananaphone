@@ -5,7 +5,9 @@
   "main": "client.js",
   "dependencies": {
     "pi-gpio": "^0.0.6",
-    "restify": "^2.8.3"
+    "restify": "^2.8.3",
+    "twilio": "~1.1.4",
+    "dotenv": "0.4.0"
   },
   "devDependencies": {},
   "scripts": {
