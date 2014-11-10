@@ -1,0 +1,29 @@
+{
+  "name": "bananaphone",
+  "version": "0.0.1",
+  "description": "restful arduino-frienly service for interacting with twilio",
+  "main": "client.js",
+  "dependencies": {
+    "pi-gpio": "^0.0.6",
+    "restify": "^2.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stomatocode/bananaphone.git"
+  },
+  "keywords": [
+    "RPi",
+    "arduino",
+    "HTTP"
+  ],
+  "author": "dan hossom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stomatocode/bananaphone/issues"
+  },
+  "homepage": "https://github.com/stomatocode/bananaphone"
+}
