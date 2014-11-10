@@ -1,8 +1,11 @@
+var dotenv  = require('dotenv');
+var twilio  = require('twilio');
+var gpio    = require('pi-gpio');
+var restify = require('restify');
+
 // Made using Restify.js: http://mcavage.me/node-restify/#server-api
 
 // test server code
-
-// var restify = require('restify');
 //
 // function respond(req, res, next) {
 //   res.send('hello ' + req.params.name);
